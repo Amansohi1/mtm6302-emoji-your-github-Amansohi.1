@@ -1,0 +1,21 @@
+.emoji-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.emoji-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.emoji-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
